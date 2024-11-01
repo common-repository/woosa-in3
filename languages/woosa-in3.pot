@@ -1,0 +1,575 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Woosa - in3 payment for WooCommerce\n"
+"POT-Creation-Date: 2020-06-02 16:25+0200\n"
+"PO-Revision-Date: 2020-06-02 16:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woosa-in3.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: autoload/class-api.php:160
+msgid ""
+"Amount exceeds limit! There is an order amount limit above which pay after "
+"delivery by in3 is not available."
+msgstr ""
+
+#: autoload/class-api.php:161
+msgid ""
+"Balance exceeds limit! There is a limit on the unpaid sum of all orders "
+"using in3. "
+msgstr ""
+
+#: autoload/class-api.php:162
+msgid ""
+"Not creditworthy! The customer is not accepted for credit by this service.  "
+"in3 uses services for the actual credit check (B2C: Experian, B2B: Graydon). "
+msgstr ""
+
+#: autoload/class-api.php:163
+msgid ""
+"Credit check unavailable! The extern credit check service is not available."
+msgstr ""
+
+#: autoload/class-api.php:164
+msgid ""
+"Not found! The corporation could not be found based on its name and/or its "
+"address(B2B only)."
+msgstr ""
+
+#: autoload/class-api.php:165
+msgid "Address blocked! The invoice address is blocked by in3 "
+msgstr ""
+
+#: autoload/class-api.php:166
+msgid "Too young! The customer is under 18 age"
+msgstr ""
+
+#: autoload/class-api.php:167
+msgid ""
+"Different shipping address! The shipping address must be the same as the "
+"invoice address"
+msgstr ""
+
+#: autoload/class-api.php:168
+msgid "Shipping address blocked! The shipping address is blocked by in3"
+msgstr ""
+
+#: autoload/class-api.php:169
+msgid "API address blocked! The IP address is blocked by in3"
+msgstr ""
+
+#: autoload/class-api.php:170
+msgid "Country blocked! The country of the invoice address is blocked by in3"
+msgstr ""
+
+#: autoload/class-api.php:171
+msgid ""
+"Shipping country blocked! The country of the shipping address is blocked by "
+"in3"
+msgstr ""
+
+#: autoload/class-api.php:172
+msgid "Amount too low! The invoice amount is to low."
+msgstr ""
+
+#: autoload/class-api.php:173
+msgid ""
+"Too many open invoices! The customer has too still open invoices with "
+"Capyable"
+msgstr ""
+
+#: autoload/class-api.php:174
+msgid "IP address block due to multiple orders within 24 hours!"
+msgstr ""
+
+#: autoload/class-assets.php:147
+msgid ""
+"Pay your first installments directly via iDeal. The second and third "
+"installment are paid after respectively 30 and 60 days. No interest, no BKR "
+"registrations."
+msgstr ""
+
+#: autoload/class-assets.php:148
+msgid "The first term will be paid via iDEAL the 2nd and 3rd term via invoice."
+msgstr ""
+
+#: autoload/class-events.php:33
+#, php-format
+msgid "Every %s minute"
+msgid_plural "Every %s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: autoload/class-order.php:49 autoload/class-order.php:72
+msgid "Payment issue"
+msgstr ""
+
+#: autoload/class-order.php:54
+#, php-format
+msgid "Payment issue (%s)"
+msgid_plural "Payment issue (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: autoload/class-order.php:134
+msgid ""
+"The payment status cannot be processed because the transaction number is "
+"missing! Please check with in3 and process manually this order."
+msgstr ""
+
+#: autoload/class-order.php:147 includes/woocommerce/class-woocommerce.php:133
+#, php-format
+msgid ""
+"An error has occurred while trying to get the payment status, %sclick here%s "
+"to try again manually"
+msgstr ""
+
+#: autoload/class-order.php:156
+msgid "The transaction number failed to updated the payment satutus"
+msgstr ""
+
+#: autoload/class-order.php:163 includes/woocommerce/class-woocommerce.php:151
+msgid "The payment has been done successfully"
+msgstr ""
+
+#: autoload/class-order.php:169 includes/woocommerce/class-woocommerce.php:157
+msgid "The payment has been cancelled by the customer"
+msgstr ""
+
+#: autoload/class-order.php:198
+msgid ""
+"The payment hasn't been processed yet and more than a week has passed. "
+"Please check with in3 and process manually this order."
+msgstr ""
+
+#: autoload/class-order.php:206 includes/woocommerce/class-woocommerce.php:162
+msgid "We're waiting for the payment to be processed"
+msgstr ""
+
+#: autoload/class-order.php:231
+msgid "The payment hasn't been finalized."
+msgstr ""
+
+#: includes/class-core.php:99
+#: includes/woocommerce/gateway/setting-fields.php:17
+msgid "Settings"
+msgstr ""
+
+#: includes/class-core.php:100
+msgid "Logs"
+msgstr ""
+
+#: includes/class-core.php:101
+msgid "Check for Updates"
+msgstr ""
+
+#: includes/class-core.php:360
+#, php-format
+msgid "This plugin requires %s plugin to be installed and active!"
+msgstr ""
+
+#: includes/class-core.php:429
+#, php-format
+msgid "Your server must have at least PHP 7.0! Please upgrade! %sGo back%s"
+msgstr ""
+
+#: includes/class-core.php:437
+#, php-format
+msgid "You need at least Wordpress 4.5! Please upgrade! %sGo back%s"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:143
+msgid "The payment has been abandoned by the customer"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:178
+msgid ""
+"This credit check is not accepted. Please contact us if this problem "
+"persists!"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:237
+#: includes/woocommerce/class-woocommerce.php:239
+#, php-format
+msgid "or %s in 3 terms"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:262
+#: includes/woocommerce/class-woocommerce.php:292
+#, php-format
+msgid "or %s in 3 terms via %s"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:328
+msgid "Disable in3 Offer display"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:332
+msgid "Weather or not to display in3 price per term for this product category."
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:32
+#: includes/woocommerce/gateway/setting-fields.php:93
+msgid "Gender"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:33
+msgid "Male"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:34
+msgid "Female"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:45
+msgid "Birth date"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:49
+msgid "Day"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:53
+msgid "Month"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:57
+msgid "Year"
+msgstr ""
+
+#: includes/woocommerce/gateway/checkout-fields.php:64
+msgid "CoC Number"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:32
+msgid "in3"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:33
+msgid "Take payments via in3 platform."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:171
+#: includes/woocommerce/gateway/class-gateway.php:648
+msgid "You can not pay in 3 terms when ship to a different address."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:217
+msgid "The payment process failed"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:249
+msgid ""
+"At the moment you can't pay via in3. Please choose a different payment "
+"method or contact in3 for more information."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:383
+msgid "Something went wrong while creating the payment."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:434
+msgid "Shipping"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:453
+msgid "Total"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:500
+msgid "Something went wrong while getting payment URL."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:507
+msgid "Something went wrong while creating the invoice."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:543
+#, php-format
+msgid ""
+"The refund amount has been sent to in3 successfully - referecence number: %s"
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:547
+msgid "Something went wrong while refunding the payment amount."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:659
+#, php-format
+msgid "%sGender%s is required."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:668
+#, php-format
+msgid "%sCoC Number%s is required for the company name you provided."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:700
+#, php-format
+msgid "%sBirth date day%s is invalid."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:703
+#, php-format
+msgid "%sBirth date month%s is invalid."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:706
+#, php-format
+msgid "%sBirth date year%s is invalid."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:709
+msgid "Too young. You must be at least 18 years old."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:712
+#, php-format
+msgid "%sBirth date%s is invalid."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:733
+msgid "House number is required."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:738
+msgid "House number must contain at least one number."
+msgstr ""
+
+#: includes/woocommerce/gateway/class-gateway.php:755
+msgid "Select"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:22
+msgid "in3 Payments"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:24
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:28
+msgid "Title"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:29
+msgid "The title which the user sees during checkout."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:30
+msgid "Pay in 3 terms - 0% interest"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:34
+msgid "Description"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:36
+msgid "The description which the user sees during checkout."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:37
+msgid "Pay in 3 terms via in3 platformss."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:40
+msgid "Price amount per term"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:41
+#: includes/woocommerce/gateway/setting-fields.php:73
+msgid "Yes"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:44
+msgid "Whether or not to show the price amount per term for products"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:47
+msgid "Minimum in3 price"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:50
+msgid "The minimum price to display the in3 offer"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:53
+msgid "Maximum in3 price"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:56
+msgid "The maximum price to display the in3 offer"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:59
+msgid "Paid payment page"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:60
+msgid ""
+"Select on which page customer will be redirected when payment has satus paid."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:65
+msgid "Cancelled payment page"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:66
+msgid ""
+"Select on which page customer will be redirected when payment has satus "
+"cancelled."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:71
+msgid "Test mode"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:76
+msgid "Checkout form fields"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:78
+msgid ""
+"If you are using a custom checkout form, please provide here the field name "
+"for each of the following:"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:81
+msgid "First Name"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:82
+msgid ""
+"Specify the checkout field name which will be used as First Name. Default is "
+"\"billing_first_name\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:87
+msgid "Last Name"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:88
+msgid ""
+"Specify the checkout field name which will be used as Last Name. Default is "
+"\"billing_last_name\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:94
+msgid ""
+"Specify the checkout field name which will be used as Gender. There is no "
+"default\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:99
+msgid "Email"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:100
+msgid ""
+"Specify the checkout field name which will be used as Email Address. Default "
+"is \"billing_email\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:105
+msgid "Company Name"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:106
+msgid ""
+"Specify the checkout field name which will be used as Company name. Default "
+"is \"billing_company\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:111
+msgid "Phone"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:112
+msgid ""
+"Specify the checkout field name which will be used as Phone. Default is "
+"\"billing_phone\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:117
+msgid "Street Address"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:118
+msgid ""
+"Specify the checkout field name which will be used as Street Address. "
+"Default is \"billing_address_1\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:123
+msgid "House Number"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:124
+msgid ""
+"Specify the checkout field name which will be used as House number. Default "
+"is \"billing_address_1\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:129
+msgid "Postcode"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:130
+msgid ""
+"Specify the checkout field name which will be used as Postcode. Default is "
+"\"billing_postcode\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:135
+msgid "Country"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:136
+msgid ""
+"Specify the checkout field name which will be used as Country. Default is "
+"\"billing_country\"."
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:141
+msgid "City"
+msgstr ""
+
+#: includes/woocommerce/gateway/setting-fields.php:142
+msgid ""
+"Specify the checkout field name which will be used as City. Default is "
+"\"billing_city\"."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: woosa-in3.php:32
+msgid "Woosa - in3 payment for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Accept payment in three (3) terms to your customers via your WooCommerce "
+"webshop."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Woosa"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://woosa.nl"
+msgstr ""

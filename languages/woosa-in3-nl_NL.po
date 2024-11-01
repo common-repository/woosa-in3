@@ -1,0 +1,645 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Woosa - in3 payment for WooCommerce\n"
+"POT-Creation-Date: 2020-06-02 16:25+0200\n"
+"PO-Revision-Date: 2020-06-08 10:58+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woosa-in3.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: nl\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: autoload/class-api.php:160
+msgid ""
+"Amount exceeds limit! There is an order amount limit above which pay after "
+"delivery by in3 is not available."
+msgstr ""
+"Bedrag overschrijdt limiet! Er is een orderbedrag limiet hierdoor is in 3 "
+"termijnen betalen via in3 niet beschikbaar."
+
+#: autoload/class-api.php:161
+msgid ""
+"Balance exceeds limit! There is a limit on the unpaid sum of all orders "
+"using in3. "
+msgstr ""
+"Saldo overschrijdt limiet! Er is een limiet op de onbetaalde som van alle "
+"bestellingen met behulp van in3. "
+
+#: autoload/class-api.php:162
+msgid ""
+"Not creditworthy! The customer is not accepted for credit by this service.  "
+"in3 uses services for the actual credit check (B2C: Experian, B2B: Graydon). "
+msgstr ""
+"Niet kredietwaardig! De klant wordt niet geaccepteerd voor krediet door deze "
+"dienst. in3 gebruikt diensten voor de feitelijke kredietcontrole (B2C: "
+"Experian, B2B: Graydon). "
+
+#: autoload/class-api.php:163
+msgid ""
+"Credit check unavailable! The extern credit check service is not available."
+msgstr ""
+"Kredietcheck niet beschikbaar! De externe kredietchick is niet beschikbaar."
+
+#: autoload/class-api.php:164
+msgid ""
+"Not found! The corporation could not be found based on its name and/or its "
+"address(B2B only)."
+msgstr ""
+"Niet gevonden! Het bedrijf kan niet worden gevonden op basis van zijn naam "
+"en/of haar adres (alleen B2B)."
+
+#: autoload/class-api.php:165
+msgid "Address blocked! The invoice address is blocked by in3 "
+msgstr "Adres geblokkeerd! Het factuuradres wordt geblokkeerd door in3 "
+
+#: autoload/class-api.php:166
+msgid "Too young! The customer is under 18 age"
+msgstr "Te jong! De klant is jonger dan 18 jaar"
+
+#: autoload/class-api.php:167
+msgid ""
+"Different shipping address! The shipping address must be the same as the "
+"invoice address"
+msgstr ""
+"Ander verzendadres! Het verzendadres moet hetzelfde zijn als het factuuradres"
+
+#: autoload/class-api.php:168
+msgid "Shipping address blocked! The shipping address is blocked by in3"
+msgstr "Verzendadres geblokkeerd! Het verzendadres wordt geblokkeerd door in3"
+
+#: autoload/class-api.php:169
+msgid "API address blocked! The IP address is blocked by in3"
+msgstr "API-adres geblokkeerd! Het IP-adres wordt geblokkeerd door in3"
+
+#: autoload/class-api.php:170
+msgid "Country blocked! The country of the invoice address is blocked by in3"
+msgstr ""
+"Land geblokkeerd! Het land van het factuuradres wordt geblokkeerd door in3"
+
+#: autoload/class-api.php:171
+msgid ""
+"Shipping country blocked! The country of the shipping address is blocked by "
+"in3"
+msgstr ""
+"Verzend land geblokkeerd! Het land van het verzendadres wordt geblokkeerd "
+"door in3"
+
+#: autoload/class-api.php:172
+msgid "Amount too low! The invoice amount is to low."
+msgstr "Bedrag te laag! Het factuurbedrag is te laag."
+
+#: autoload/class-api.php:173
+msgid ""
+"Too many open invoices! The customer has too still open invoices with "
+"Capyable"
+msgstr ""
+"Te veel openstaande facturen! De klant heeft ook nog steeds facturen geopend "
+"met Capyable"
+
+#: autoload/class-api.php:174
+msgid "IP address block due to multiple orders within 24 hours!"
+msgstr "IP-adresblok vanwege meerdere bestellingen binnen 24 uur!"
+
+#: autoload/class-assets.php:147
+msgid ""
+"Pay your first installments directly via iDeal. The second and third "
+"installment are paid after respectively 30 and 60 days. No interest, no BKR "
+"registrations."
+msgstr ""
+"Betaal de eerste termijn nu direct via iDEAL. De tweede en derde termijn "
+"betaal je binnen 30 en 60 dagen. Géén rente, Géén BKR-registratie."
+
+#: autoload/class-assets.php:148
+msgid "The first term will be paid via iDEAL the 2nd and 3rd term via invoice."
+msgstr ""
+"Betaal de eerste termijn nu direct via iDEAL. De tweede en derde termijn "
+"betaal je binnen 30 en 60 dagen. Géén rente, Géén BKR-registratie."
+
+#: autoload/class-events.php:33
+#, php-format
+msgid "Every %s minute"
+msgid_plural "Every %s minutes"
+msgstr[0] "Elke %s minuut"
+msgstr[1] "Elke %s minuten"
+
+#: autoload/class-order.php:49 autoload/class-order.php:72
+msgid "Payment issue"
+msgstr "Betalingsprobleem"
+
+#: autoload/class-order.php:54
+#, php-format
+msgid "Payment issue (%s)"
+msgid_plural "Payment issue (%s)"
+msgstr[0] "Betalingsprobleem (%s)"
+msgstr[1] "Betalingsprobleem (%s)"
+
+#: autoload/class-order.php:134
+msgid ""
+"The payment status cannot be processed because the transaction number is "
+"missing! Please check with in3 and process manually this order."
+msgstr ""
+"De betalingsstatus kan niet worden verwerkt omdat het transactienummer "
+"ontbreekt! Neem contact op met in3 en verwerk deze bestelling handmatig."
+
+#: autoload/class-order.php:147 includes/woocommerce/class-woocommerce.php:133
+#, php-format
+msgid ""
+"An error has occurred while trying to get the payment status, %sclick here%s "
+"to try again manually"
+msgstr ""
+"Er is een fout opgetreden tijdens het ophalen van de betaalstatus, %sklik "
+"hier%s om handmatig opnieuw te proberen"
+
+#: autoload/class-order.php:156
+msgid "The transaction number failed to updated the payment satutus"
+msgstr "Het transactienummer heeft de betalingssatutu's niet bijgewerkt"
+
+#: autoload/class-order.php:163 includes/woocommerce/class-woocommerce.php:151
+msgid "The payment has been done successfully"
+msgstr "De betaling is succesvol"
+
+#: autoload/class-order.php:169 includes/woocommerce/class-woocommerce.php:157
+msgid "The payment has been cancelled by the customer"
+msgstr "De betaling is geannuleerd door de klant"
+
+#: autoload/class-order.php:198
+msgid ""
+"The payment hasn't been processed yet and more than a week has passed. "
+"Please check with in3 and process manually this order."
+msgstr ""
+"De betaling is nog niet verwerkt en meer dan een week is verstreken. Neem "
+"contact op met in3 en verwerk deze bestelling handmatig."
+
+#: autoload/class-order.php:206 includes/woocommerce/class-woocommerce.php:162
+msgid "We're waiting for the payment to be processed"
+msgstr "We wachten tot de betaling wordt verwerkt"
+
+#: autoload/class-order.php:231
+msgid "The payment hasn't been finalized."
+msgstr "De betaling is nog niet afgerond."
+
+#: includes/class-core.php:99
+#: includes/woocommerce/gateway/setting-fields.php:17
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-core.php:100
+msgid "Logs"
+msgstr "Logs"
+
+#: includes/class-core.php:101
+msgid "Check for Updates"
+msgstr "Controleer voor updates"
+
+#: includes/class-core.php:360
+#, php-format
+msgid "This plugin requires %s plugin to be installed and active!"
+msgstr "Helaas, deze plugin heeft %s nodig om te kunnen functioneren!"
+
+#: includes/class-core.php:429
+#, php-format
+msgid "Your server must have at least PHP 7.0! Please upgrade! %sGo back%s"
+msgstr ""
+"Jouw server moet ten minste PHP 7.0 gebruiken. Gelieve de PHP versie te "
+"upgraden! %sGa terug%s"
+
+#: includes/class-core.php:437
+#, php-format
+msgid "You need at least Wordpress 4.5! Please upgrade! %sGo back%s"
+msgstr ""
+"U heeft tenminste WordPress 4.5 nodig! Gelieve te upgraden! %sGa terug%s"
+
+#: includes/woocommerce/class-woocommerce.php:143
+msgid "The payment has been abandoned by the customer"
+msgstr "De betaling is afgebroken door de klant"
+
+#: includes/woocommerce/class-woocommerce.php:178
+msgid ""
+"This credit check is not accepted. Please contact us if this problem "
+"persists!"
+msgstr ""
+"Deze kredietcheck wordt niet geaccepteerd. Neem contact met ons op als dit "
+"probleem zich blijft voordoen!"
+
+#: includes/woocommerce/class-woocommerce.php:237
+#: includes/woocommerce/class-woocommerce.php:239
+#, php-format
+msgid "or %s in 3 terms"
+msgstr "of 3x %s met "
+
+#: includes/woocommerce/class-woocommerce.php:262
+#: includes/woocommerce/class-woocommerce.php:292
+#, php-format
+msgid "or %s in 3 terms via %s"
+msgstr "of 3x %s met "
+
+#: includes/woocommerce/class-woocommerce.php:328
+msgid "Disable in3 Offer display"
+msgstr "Toon in3 prijs per termijn"
+
+#: includes/woocommerce/class-woocommerce.php:332
+msgid "Weather or not to display in3 price per term for this product category."
+msgstr "Schakelt de prijs per termijn op basis van de product categorie uit."
+
+#: includes/woocommerce/gateway/checkout-fields.php:32
+#: includes/woocommerce/gateway/setting-fields.php:93
+msgid "Gender"
+msgstr "Geslacht"
+
+#: includes/woocommerce/gateway/checkout-fields.php:33
+msgid "Male"
+msgstr "Man"
+
+#: includes/woocommerce/gateway/checkout-fields.php:34
+msgid "Female"
+msgstr "Vrouw"
+
+#: includes/woocommerce/gateway/checkout-fields.php:45
+msgid "Birth date"
+msgstr "Geboortedatum"
+
+#: includes/woocommerce/gateway/checkout-fields.php:49
+msgid "Day"
+msgstr "Dag"
+
+#: includes/woocommerce/gateway/checkout-fields.php:53
+msgid "Month"
+msgstr "Maand"
+
+#: includes/woocommerce/gateway/checkout-fields.php:57
+msgid "Year"
+msgstr "Jaar"
+
+#: includes/woocommerce/gateway/checkout-fields.php:64
+msgid "CoC Number"
+msgstr "KvK-nummer"
+
+#: includes/woocommerce/gateway/class-gateway.php:32
+msgid "in3"
+msgstr "in3"
+
+#: includes/woocommerce/gateway/class-gateway.php:33
+msgid "Take payments via in3 platform."
+msgstr "Laat je klanten in 3 termijnen betalen tegen 0% rente – in3."
+
+#: includes/woocommerce/gateway/class-gateway.php:171
+#: includes/woocommerce/gateway/class-gateway.php:648
+msgid "You can not pay in 3 terms when ship to a different address."
+msgstr ""
+"U kunt niet betalen in 3 termijnen als u een ander verzendadres heeft "
+"ingevuld."
+
+#: includes/woocommerce/gateway/class-gateway.php:217
+msgid "The payment process failed"
+msgstr "Het betalingsproces is mislukt"
+
+#: includes/woocommerce/gateway/class-gateway.php:249
+msgid ""
+"At the moment you can't pay via in3. Please choose a different payment "
+"method or contact in3 for more information."
+msgstr ""
+"Op dit moment kunt u niet betalen via in3. Kies een andere betalmethode of "
+"neem contact op met in3 voor meer informatie."
+
+#: includes/woocommerce/gateway/class-gateway.php:383
+msgid "Something went wrong while creating the payment."
+msgstr "Er ging iets mis tijdens het aanmaken van de betaling."
+
+#: includes/woocommerce/gateway/class-gateway.php:434
+msgid "Shipping"
+msgstr "Verzending"
+
+#: includes/woocommerce/gateway/class-gateway.php:453
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/woocommerce/gateway/class-gateway.php:500
+msgid "Something went wrong while getting payment URL."
+msgstr "Er ging iets mis tijdens het ophalen van de betaal URL."
+
+#: includes/woocommerce/gateway/class-gateway.php:507
+msgid "Something went wrong while creating the invoice."
+msgstr "Er is iets mis gegaan tijdens het aanmaken van de factuur."
+
+#: includes/woocommerce/gateway/class-gateway.php:543
+#, php-format
+msgid ""
+"The refund amount has been sent to in3 successfully - referecence number: %s"
+msgstr ""
+"Het terug te betalen bedrag is verzonden naar in3 met referentie-nummer: %s"
+
+#: includes/woocommerce/gateway/class-gateway.php:547
+msgid "Something went wrong while refunding the payment amount."
+msgstr "Er ging iets mis tijdens het toepassen van het restitutiebedrag."
+
+#: includes/woocommerce/gateway/class-gateway.php:659
+#, php-format
+msgid "%sGender%s is required."
+msgstr "%sGeslacht%s is vereist."
+
+#: includes/woocommerce/gateway/class-gateway.php:668
+#, php-format
+msgid "%sCoC Number%s is required for the company name you provided."
+msgstr "%sKVK nummer%s is vereist voor de bedrijfsnaam die u hebt opgegeven."
+
+#: includes/woocommerce/gateway/class-gateway.php:700
+#, php-format
+msgid "%sBirth date day%s is invalid."
+msgstr "%sGeboortedag%s is ongeldig."
+
+#: includes/woocommerce/gateway/class-gateway.php:703
+#, php-format
+msgid "%sBirth date month%s is invalid."
+msgstr "%sGeboortemaand%s is ongeldig."
+
+#: includes/woocommerce/gateway/class-gateway.php:706
+#, php-format
+msgid "%sBirth date year%s is invalid."
+msgstr "%sGeboortejaar%s is ongeldig."
+
+#: includes/woocommerce/gateway/class-gateway.php:709
+msgid "Too young. You must be at least 18 years old."
+msgstr ""
+"Je bent te jong voor betaling in 3 termijnen. Je moet tenminste 18 jaar oud "
+"zijn."
+
+#: includes/woocommerce/gateway/class-gateway.php:712
+#, php-format
+msgid "%sBirth date%s is invalid."
+msgstr "%sGeboortedatum%s is ongeldig."
+
+#: includes/woocommerce/gateway/class-gateway.php:733
+msgid "House number is required."
+msgstr "Huisnummer is verplicht."
+
+#: includes/woocommerce/gateway/class-gateway.php:738
+msgid "House number must contain at least one number."
+msgstr "Het huisnummer moet ten minste één nummer bevatten."
+
+#: includes/woocommerce/gateway/class-gateway.php:755
+msgid "Select"
+msgstr "Selecteer"
+
+#: includes/woocommerce/gateway/setting-fields.php:22
+msgid "in3 Payments"
+msgstr "in3 Betalingen"
+
+#: includes/woocommerce/gateway/setting-fields.php:24
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: includes/woocommerce/gateway/setting-fields.php:28
+msgid "Title"
+msgstr "Titel"
+
+#: includes/woocommerce/gateway/setting-fields.php:29
+msgid "The title which the user sees during checkout."
+msgstr "Dit bepaalt de titel die de gebruiker ziet tijdens het betalen."
+
+#: includes/woocommerce/gateway/setting-fields.php:30
+msgid "Pay in 3 terms - 0% interest"
+msgstr "Betaal in 3 termijnen met 0% rente"
+
+#: includes/woocommerce/gateway/setting-fields.php:34
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/woocommerce/gateway/setting-fields.php:36
+msgid "The description which the user sees during checkout."
+msgstr ""
+"Dit bepaalt de beschrijving die de gebruiker ziet tijdens het afrekenen met "
+"IN3."
+
+#: includes/woocommerce/gateway/setting-fields.php:37
+msgid "Pay in 3 terms via in3 platformss."
+msgstr "Betaal in 3 termijnen via in3."
+
+#: includes/woocommerce/gateway/setting-fields.php:40
+msgid "Price amount per term"
+msgstr "Toon bedrag per termijn"
+
+#: includes/woocommerce/gateway/setting-fields.php:41
+#: includes/woocommerce/gateway/setting-fields.php:73
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/woocommerce/gateway/setting-fields.php:44
+msgid "Whether or not to show the price amount per term for products"
+msgstr "Toon het bedrag per termijn op de catalogus- en productpagina"
+
+#: includes/woocommerce/gateway/setting-fields.php:47
+msgid "Minimum in3 price"
+msgstr "Minimum in3 prijs"
+
+#: includes/woocommerce/gateway/setting-fields.php:50
+msgid "The minimum price to display the in3 offer"
+msgstr "De minimumprijs om te betalen met in3"
+
+#: includes/woocommerce/gateway/setting-fields.php:53
+msgid "Maximum in3 price"
+msgstr "Maximale in3 prijs"
+
+#: includes/woocommerce/gateway/setting-fields.php:56
+msgid "The maximum price to display the in3 offer"
+msgstr "De maximale prijs om te betalen met in3"
+
+#: includes/woocommerce/gateway/setting-fields.php:59
+msgid "Paid payment page"
+msgstr "Bedankpagina"
+
+#: includes/woocommerce/gateway/setting-fields.php:60
+msgid ""
+"Select on which page customer will be redirected when payment has satus paid."
+msgstr ""
+"Selecteer op welke pagina de klant terecht komt, wanneer de betaling betaald "
+"is."
+
+#: includes/woocommerce/gateway/setting-fields.php:65
+msgid "Cancelled payment page"
+msgstr "Annuleringspagina"
+
+#: includes/woocommerce/gateway/setting-fields.php:66
+msgid ""
+"Select on which page customer will be redirected when payment has satus "
+"cancelled."
+msgstr ""
+"Selecteer op welke pagina de klant wordt doorgestuurd wanneer de betaling is "
+"geannuleerd."
+
+#: includes/woocommerce/gateway/setting-fields.php:71
+msgid "Test mode"
+msgstr "Testmodus"
+
+#: includes/woocommerce/gateway/setting-fields.php:76
+msgid "Checkout form fields"
+msgstr "Afrekenproces invulvelden"
+
+#: includes/woocommerce/gateway/setting-fields.php:78
+msgid ""
+"If you are using a custom checkout form, please provide here the field name "
+"for each of the following:"
+msgstr ""
+"Als u een aangepast afrekenproces gebruikt, definieer dan via onderstaande "
+"velden de concrete waardes van de afreken-velden:"
+
+#: includes/woocommerce/gateway/setting-fields.php:81
+msgid "First Name"
+msgstr "Voornaam"
+
+#: includes/woocommerce/gateway/setting-fields.php:82
+msgid ""
+"Specify the checkout field name which will be used as First Name. Default is "
+"\"billing_first_name\"."
+msgstr ""
+"Geef de naam van het afreken-veld op die als klant voornaam wordt gebruikt. "
+"Standaard is \"billing_first_name\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:87
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: includes/woocommerce/gateway/setting-fields.php:88
+msgid ""
+"Specify the checkout field name which will be used as Last Name. Default is "
+"\"billing_last_name\"."
+msgstr ""
+"Geef de naam van het afreken-veld op die als achternaam van de klant wordt "
+"gebruikt. Standaard is \"billing_last_name\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:94
+msgid ""
+"Specify the checkout field name which will be used as Gender. There is no "
+"default\"."
+msgstr ""
+"Geef de naam van het afreken-veld op, die zal worden gebruikt voor geslacht. "
+"Er is geen standaard."
+
+#: includes/woocommerce/gateway/setting-fields.php:99
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/woocommerce/gateway/setting-fields.php:100
+msgid ""
+"Specify the checkout field name which will be used as Email Address. Default "
+"is \"billing_email\"."
+msgstr ""
+"Geef het afreken-veld op die zal worden gebruikt als klant e-mailadres. "
+"Standaard is \"billing_email\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:105
+msgid "Company Name"
+msgstr "Bedrijfsnaam"
+
+#: includes/woocommerce/gateway/setting-fields.php:106
+msgid ""
+"Specify the checkout field name which will be used as Company name. Default "
+"is \"billing_company\"."
+msgstr ""
+"Geef de naam van het afreken-veld op die als bedrijfsnaam wordt gebruikt. "
+"Standaard is \"billing_company\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:111
+msgid "Phone"
+msgstr "Telefoon"
+
+#: includes/woocommerce/gateway/setting-fields.php:112
+msgid ""
+"Specify the checkout field name which will be used as Phone. Default is "
+"\"billing_phone\"."
+msgstr ""
+"Geef het afreken-veld die zal worden gebruikt als klant telefoon. Standaard "
+"is \"billing_phone\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:117
+msgid "Street Address"
+msgstr "Straatnaam"
+
+#: includes/woocommerce/gateway/setting-fields.php:118
+msgid ""
+"Specify the checkout field name which will be used as Street Address. "
+"Default is \"billing_address_1\"."
+msgstr ""
+"Geef de naam van het afreken-veld op die als straatadres wordt gebruikt. "
+"Standaard is \"billing_address_1\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:123
+msgid "House Number"
+msgstr "Huisnummer"
+
+#: includes/woocommerce/gateway/setting-fields.php:124
+msgid ""
+"Specify the checkout field name which will be used as House number. Default "
+"is \"billing_address_1\"."
+msgstr ""
+"Geef de naam van het afreken-veld die zal worden gebruikt als huisnummer. "
+"Standaard is \"billing_address_1\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:129
+msgid "Postcode"
+msgstr "Postcode"
+
+#: includes/woocommerce/gateway/setting-fields.php:130
+msgid ""
+"Specify the checkout field name which will be used as Postcode. Default is "
+"\"billing_postcode\"."
+msgstr ""
+"Geef de naam van het afreken-veld die zal worden gebruikt als postcode. "
+"Standaard is \"billing_postcode\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:135
+msgid "Country"
+msgstr "Land"
+
+#: includes/woocommerce/gateway/setting-fields.php:136
+msgid ""
+"Specify the checkout field name which will be used as Country. Default is "
+"\"billing_country\"."
+msgstr ""
+"Geef het afreken-veldn die zal worden gebruikt als land. Standaard is "
+"\"billing_country\"."
+
+#: includes/woocommerce/gateway/setting-fields.php:141
+msgid "City"
+msgstr "Stad"
+
+#: includes/woocommerce/gateway/setting-fields.php:142
+msgid ""
+"Specify the checkout field name which will be used as City. Default is "
+"\"billing_city\"."
+msgstr ""
+"Geef de naam van het afreken-veld op die zal worden gebruikt als stad. "
+"Standaard is \"billing_city\"."
+
+#. Plugin Name of the plugin/theme
+#: woosa-in3.php:32
+msgid "Woosa - in3 payment for WooCommerce"
+msgstr "Woosa - in3 voor WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Accept payment in three (3) terms to your customers via your WooCommerce "
+"webshop."
+msgstr ""
+"Accepteer betaling in drie (3) termijnen aan uw klanten via uw WooCommerce "
+"webshop."
+
+#. Author of the plugin/theme
+msgid "Woosa"
+msgstr "Woosa"
+
+#. Author URI of the plugin/theme
+msgid "https://woosa.nl"
+msgstr "https://woosa.nl"
